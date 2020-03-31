@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "POPProgressHud"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "POP based progressHud with a cool lottie animation"
 
   # This description is used to generate tags and improve search results.
@@ -136,6 +136,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "lottie-ios"
+  spec.dependency 'lottie-ios'
 
 end

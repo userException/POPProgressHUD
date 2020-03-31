@@ -6,7 +6,7 @@ target 'POPProgressHud' do
   # use_frameworks!
 
   # Pods for POPProgressHud
-  pod 'lottie-ios'
+  pod 'lottie-ios', '~> 3.1.5'
   
 
   target 'POPProgressHudTests' do
