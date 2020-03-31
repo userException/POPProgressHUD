@@ -1,0 +1,6 @@
+module Pods_POPProgressHud_POPProgressHudTests {
+  umbrella header "Pods-POPProgressHud-POPProgressHudTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

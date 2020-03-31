@@ -1,0 +1,6 @@
+module Pods_POPProgressHud {
+  umbrella header "Pods-POPProgressHud-umbrella.h"
+
+  export *
+  module * { export * }
+}
