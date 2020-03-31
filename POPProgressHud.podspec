@@ -24,7 +24,8 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC Easily implement the progress hud in your views and view controllers by simply adopting the ViewHudProtocol. This light weight implementation is based on
+  spec.description  = <<-DESC 
+  Easily implement the progress hud in your views and view controllers by simply adopting the ViewHudProtocol. This light weight implementation is based on
   protocol oriented programming and takes advantage of the lottiefiles created by airbnb for cross platform animations using just JSON files.
                    DESC
 
@@ -65,6 +66,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.platform     = :ios
+  spec.swift_version = "5.0"
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -134,6 +136,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "lottie-ios",
+  spec.dependency "lottie-ios"
 
 end
